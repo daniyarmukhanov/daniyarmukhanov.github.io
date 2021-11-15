@@ -26,3 +26,8 @@
   });
 
 })(jQuery); // End of use strict
+
+
+document.getElementById("nameSur").onclick = function() {
+  prompt("What's Your Name");
+};
